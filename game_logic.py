@@ -49,8 +49,8 @@ def minimax(game, depth, is_maximizing, ai_player, human_player):
     1. Explore (Recursion)
     2. Score 
     3. Backtrack
-       -  MAX (الذكاء الاصطناعي)
-       -  MIN (الإنسان) 
+       -  MAX (AI)
+       -  MIN (Human) 
     """
     global states_explored
     states_explored += 1 
